@@ -9,8 +9,8 @@ python object_detection/dataset_tools/create_pet_tf_record.py
 ```
 python object_detection/train.py \
 --logtostderr \
---pipeline_config_path= D:/training-sets/data-translate/training/ssd_mobilenet_v1_pets.config \
---train_dir=D:/training-sets/data-translate/training
+--pipeline_config_path=D:/works/tensorflow/TensorFlow_Custom_ObjectDetection_/models/model/ssd_mobilenet_v1_coco.config \
+--train_dir=D:/works/tensorflow/TensorFlow_Custom_ObjectDetection_/train
 ```
 
 ```
