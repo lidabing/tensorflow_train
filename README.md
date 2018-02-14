@@ -14,11 +14,7 @@ python object_detection/train.py \
 ```
 
 ```
-python object_detection/export_inference_graph.py 
---input_type image_tensor 
---pipeline_config_path D:\works\tensorflow\models\research\data\faster_rcnn_resnet101_pets.config 
---trained_checkpoint_prefix D:\works\tensorflow\models\research\train/model.ckpt-12421 
---output_directory D:\works\tensorflow\models\research\out
+python object_detection/export_inference_graph.py  --input_type image_tensor   --pipeline_config_path D:/works/tensorflow/TensorFlow_Custom_ObjectDetection_/models/model/ssd_mobilenet_v1_coco.config --trained_checkpoint_prefix D:/works/tensorflow/TensorFlow_Custom_ObjectDetection_/train/model.ckpt-21925 --output_directory D:/works/tensorflow/TensorFlow_Custom_ObjectDetection_/out
 ```
 
 
