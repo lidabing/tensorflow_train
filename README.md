@@ -20,3 +20,8 @@ python object_detection/export_inference_graph.py
 --trained_checkpoint_prefix D:\works\tensorflow\models\research\train/model.ckpt-12421 
 --output_directory D:\works\tensorflow\models\research\out
 ```
+
+
+```
+tensorboard --logdir=D:\works\tensorflow\TensorFlow_Custom_ObjectDetection_\train
+```
